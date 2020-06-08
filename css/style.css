@@ -40,6 +40,17 @@ a {
     font-size: 2rem;
 }
 
+section#entertainment {
+    background: url(../img/section-bg.jpg) no-repeat bottom/cover;
+    padding: 10rem 0;
+  }
+
+.gift-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
 
   /* Showcase */
   #showcase{
